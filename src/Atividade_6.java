@@ -9,10 +9,6 @@ public class Atividade_6 {
         System.out.print("Digite o número de entradas: ");
         int n = scanner.nextInt();
 
-        if (n <= 0) {
-            System.out.println("O número de entradas deve ser um valor positivo.");
-        } else {
-
             double soma = 0;
 
             for (int i = 0; i < n; i++) {
@@ -24,8 +20,6 @@ public class Atividade_6 {
             double media = soma / n;
 
             System.out.println("A média dos números é: " + media);
-        }
-
 
         scanner.close();
     }
